@@ -130,9 +130,21 @@ dd {
 }
 
 blockquote {
-  margin: 0 0 1rem;
+  display: inline-block;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 0px;  
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Lato, sans-serif, Helvetica, Arial;
+  font-size: 18px;
+   background-color: #F0F0F0;
 }
 
+/*blockquote {
+  margin: 0 0 1rem;
+}
+*/
 b,
 strong {
   font-weight: bolder;
